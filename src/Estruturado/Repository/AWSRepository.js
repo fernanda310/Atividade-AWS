@@ -9,6 +9,8 @@ AWS.config.update({
     secretAccessKey: ''
 });
 
+///aaaaaaaaaaaaaaaaaaaaaaaaa
+
 const s3 = new AWS.S3();
 
 class AWSRepository {
