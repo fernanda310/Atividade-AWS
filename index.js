@@ -1,10 +1,9 @@
-//npm init -y
-//npm install express
-//node index.js
-//npm install nodemon
-//npm install mysql2
-//npm install knex
-//npm install cors
+// npm init -y
+// npm install express
+// npm install nodemon
+// npm install mysql2
+// npm install knex
+// npm install cors
 
 const express = require('express'); 
 const cors = require('cors');
@@ -17,5 +16,5 @@ app.use(express.json());
 app.use(router);
 
 app.listen(3001,() => {
-    console.log("Rodando");
+    console.log(" a API esta funcionando :)");
 })
