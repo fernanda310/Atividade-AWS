@@ -1,6 +1,4 @@
 const AWS = require('aws-sdk');
-const fs = require('fs');
-const path = require('path');
 const { v4: uuidv4 } = require('uuid'); 
 
 AWS.config.update({
@@ -8,8 +6,6 @@ AWS.config.update({
     accessKeyId: '',
     secretAccessKey: ''
 });
-
-///aaaaaaaaaaaaaaaaaaaaaaaaa
 
 const s3 = new AWS.S3();
 
